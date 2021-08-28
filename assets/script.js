@@ -12,4 +12,7 @@ function setTime() {
 setTime();
 
 // Below are some conditional variables and funtions that will be able
-// to change color based on if the event planner entry
+// to change color based on if the event planner entry.
+// It will be a little redundant as each time entry will have its own variable and function.
+// Will update later once a solution is found.
+
