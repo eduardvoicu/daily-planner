@@ -167,86 +167,87 @@ var getTimeBlock9 = localStorage.getItem("eventNine");
 var getTimeBlock10 = localStorage.getItem("eventTen");
 var getTimeBlock11 = localStorage.getItem("eventEleven");
 
+// Creating variable to pull ALL timeblock entries.
+var pullEvents = [getTimeBlock1, getTimeBlock2, getTimeBlock3, getTimeBlock4, getTimeBlock5, getTimeBlcok6, getTimeBlock7, getTimeBlock8, getTimeBlock9, getTimeBlock10, getTimeBlock11];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Creating a "for" loop that keep bringing up the entries posted from before.
+for(i = 0; i < pullEvents.length; i++) {
+    timeBlock1.text(getTimeBlock1);
+    timeBlock2.text(getTimeBlock2);
+    timeBlock3.text(getTimeBlock3);
+    timeBlock4.text(getTimeBlock4);
+    timeBlock5.text(getTimeBlock5);
+    timeBlock6.text(getTimeBlock6);
+    timeBlock7.text(getTimeBlock7);
+    timeBlock8.text(getTimeBlock8);
+    timeBlock9.text(getTimeBlock9);
+    timeBlock10.text(getTimeBlock10);
+    timeBlock11.text(getTimeBlock11);
+ };
+ 
 // Event Listeners to the SAVE button.
 
-// 0700 Time Block
+// 0700 Time Block SAVE BUTTON
 $("#saveOne").submit(function(event) {
     event.preventDefault();
     storeEntry();
   });
 
-  // 0800 Time Block
+  // 0800 Time Block SAVE BUTTON
 $("#saveTwo").submit(function(event) {
     event.preventDefault();
     storeEntry();
   });
 
-  // 0900 Time Block
+  // 0900 Time Block SAVE BUTTON
 $("#saveThree").submit(function(event) {
     event.preventDefault();
     storeEntry();
   });
 
-  // 1000 Time Block
+  // 1000 Time Block SAVE BUTTON
 $("#saveFour").submit(function(event) {
     event.preventDefault();
     storeEntry();
   });
 
-  // 1100 Time Block
+  // 1100 Time Block SAVE BUTTON
 $("#saveFive").submit(function(event) {
     event.preventDefault();
     storeEntry();
   });
 
-  // 1200 Time Block
+  // 1200 Time Block SAVE BUTTON
 $("#saveSix").submit(function(event) {
     event.preventDefault();
     storeEntry();
   });
 
-  // 1300 Time Block
+  // 1300 Time Block SAVE BUTTON
 $("#saveSeven").submit(function(event) {
     event.preventDefault();
     storeEntry();
   });
 
-  // 1400 Time Block
+  // 1400 Time Block SAVE BUTTON
 $("#saveEight").submit(function(event) {
     event.preventDefault();
     storeEntry();
   });
 
-  // 1500 Time Block
+  // 1500 Time Block SAVE BUTTON
 $("#saveNine").submit(function(event) {
     event.preventDefault();
     storeEntry();
   });
 
-  // 1600 Time Block
+  // 1600 Time Block SAVE BUTTON
 $("#saveTen").submit(function(event) {
     event.preventDefault();
     storeEntry();
   });
 
-  // 1700 Time Block
+  // 1700 Time Block SAVE BUTTON
 $("#saveEleven").submit(function(event) {
     event.preventDefault();
     storeEntry();
