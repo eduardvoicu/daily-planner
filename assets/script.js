@@ -18,7 +18,7 @@ setTime();
 
 var timeNow = new Date().getHours();
 
-function colorTime() {
+function colorTimeBlockChange() {
   // 0700 time block function
   if (timeNow < 7) {
     $("#colorEntry1").addClass("futureTime");
@@ -117,5 +117,5 @@ function colorTime() {
   } else if (timeNow > 17) {
     $("#colorEntry11").addClass("pastTime");
   }
-}
-colorTime();
+};
+colorTimeBlockChange()
