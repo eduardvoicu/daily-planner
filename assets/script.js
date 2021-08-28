@@ -159,6 +159,13 @@ var getTimeBlock1 = localStorage.getItem("eventOne");
 var getTimeBlock2 = localStorage.getItem("eventTwo");
 var getTimeBlock3 = localStorage.getItem("eventThree");
 var getTimeBlock4 = localStorage.getItem("eventFour");
+var getTimeBlock5 = localStorage.getItem("eventFive");
+var getTimeBlock6 = localStorage.getItem("eventSix");
+var getTimeBlock7 = localStorage.getItem("eventSeven");
+var getTimeBlock8 = localStorage.getItem("eventEight");
+var getTimeBlock9 = localStorage.getItem("eventNine");
+var getTimeBlock10 = localStorage.getItem("eventTen");
+var getTimeBlock11 = localStorage.getItem("eventEleven");
 
 
 
